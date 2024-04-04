@@ -5,6 +5,7 @@ import styles from "./navLink.module.css";
 import Link from "next/link";
 const NavLink = ({ item }) => {
   const pathName = usePathname();
+  // console.log(pathName);
   return (
     <Link
       href={item.path}
